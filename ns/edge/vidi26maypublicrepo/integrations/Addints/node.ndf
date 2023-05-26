@@ -95,12 +95,11 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqaadmin</value>
-    <value name="createdDate">1685111987222</value>
-    <value name="lastModifiedDate">1685111987222</value>
+    <value name="lastModifiedBy">siqaadmin</value>
+    <value name="lastModifiedDate">1685112110529</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">default</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">Addints</value>
@@ -120,6 +119,9 @@
         </record>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
