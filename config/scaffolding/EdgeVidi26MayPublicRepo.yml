@@ -1,0 +1,25 @@
+version: "1.0"
+info:
+  model: int-scaffold
+configurationVariables:
+  jdbc.test.poolThreshold: "0"
+  jdbc.test.snoopenabled: "false"
+  jdbc.test.minConns: "0"
+  jdbc.test.driverAlias: MySQL Database Java Connector Driver
+  jdbc.test.userid: root
+  jdbc.test.description: test
+  jdbc.test.spyparms: SpyAttributes=(log=(file)logs/spy/test.log;logTName=yes;timestamp=yes)
+  jdbc.test.spyenabled: "false"
+  jdbc.test.maxConns: "10"
+  jdbc.test.waitingThread: "0"
+  jdbc.test.dbURL: jdbc:mysql://mysql.local:3306
+  jdbc.test.password: "{AES}er+I3U8nDVm8F4DBRST1+A=="
+  jdbc.test.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/test.log;ddtdbg.ProtocolTraceShowTime=true
+  jdbc.test.expireTime: "60000"
+packages:
+- name: EdgeVidi26MayPublicRepo
+  gitServerName: vidiPubRepo
+  gitUrl: https://github.com/vijetadixit/26MayPublicRepo
+  gitUsername: vijetadixit
+  gitToken: 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
+  gitBranch: master
